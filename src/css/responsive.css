@@ -1,0 +1,717 @@
+@media (min-width: 320px) { 
+   /*  newsletter */
+   .newsletter__area__content .newsletter__area__inputbutton button{ 
+     right: 1.3rem;   
+     top: 1.4rem;  
+   }
+   /* /newsletter */
+}
+
+@media (min-width: 450px) { 
+   /*  newsletter */
+   .newsletter__area__content .newsletter__area__inputbutton button{
+     right: 1.5rem;
+     top: 1.3rem;  
+   }
+   /* /newsletter */
+}
+
+@media (min-width: 500px) {
+   /*  downloads */
+  .downloads .content__downloads .area__img__downloads .img__mockup{
+    width: 30rem;
+  }
+   /* /downloads */
+}
+
+@media  (min-width: 600px) {
+  /*  clientes */
+  .container__images__clientes{
+      grid-template-columns: repeat(2, 1fr);
+  }
+  /* /clientes */
+
+  /*  payday */
+  .payday .area__img__payday .img__payday{
+    width: 400px;
+  }
+  /* /payday */
+
+  /*  favourites */
+  .area__img__title__favourite .img__title__favourite{
+    width: 25rem;
+  }
+  /* /favourites */
+
+  /*  downloads */
+  .downloads .content__downloads .txt__downloads .btns__downloads{
+      flex-direction: row;
+  }
+
+  .downloads .content__downloads .area__img__downloads .img__mockup{
+    width: 35rem;
+  }
+  /* /downloads */
+
+   /*  newsletter */
+   .newsletter__area__content .newsletter__area__inputbutton button{
+     right: 1.9rem; 
+     top: 1.3rem;  
+     padding: .8rem 1.7rem;  
+     font-size: 1rem;
+     font-weight: 600;
+   }
+
+   .newsletter__area__content .newsletter__area__inputbutton input{
+      padding: 1.2rem;
+   }
+
+   .newsletter__area__content .newsletter__area__inputbutton input::placeholder{
+      font-size: 1.2rem;
+   }
+
+   .news__title1{
+     display: none;
+   }
+
+   .news__title2{
+     display: block;     
+   }   
+   /* /newsletter */
+}
+
+@media  (min-width: 680px) {
+  /*  favourites */
+  .card .card__textos .textos__card h3{
+     font-size: 1.8rem;
+  }
+
+  .card .card__textos .textos__card .card__link{
+     font-size: 1.5rem;
+  }
+   /* /favourites */
+}
+
+@media  (min-width: 768px) {  
+ 
+  .topo--blur {
+    background: rgba(223, 223, 223, 0.144);
+    backdrop-filter: blur(50px);
+    -webkit-backdrop-filter: blur(50px);
+  }
+
+ .topo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+       
+    background: rgba(255, 255, 255, 0.75); /* fundo translúcido */
+    backdrop-filter: blur(50px);
+    -webkit-backdrop-filter: blur(50px);
+  }
+  
+  nav ul{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;        
+  }
+
+  nav ul li{
+    margin-top: .1rem;
+  }
+
+  nav ul li a { 
+    font-size: 2rem;
+  }
+
+  /* clientes */
+  .img__clientes{
+    width: 160px;
+    height: 50px;
+  }
+
+  .container__images__clientes{
+    grid-template-columns: repeat(3, 1fr);
+  }  
+   /* clientes */
+
+  /* arrivals */
+  .area__img__title__arrivals{
+    justify-content: flex-start;
+    padding-block: 2rem;
+  }
+
+  .area__img__title__arrivals .img__title__arrivals{
+    width: 20rem;
+  }
+
+  .container__arrivals{
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+
+  .card .img__card__mobile, .card .img__card__desktop{
+    display: none;
+  }
+
+  .card .img__card__tablet{
+    display: block;
+  }
+
+  .card .card__textos .textos__card h3{
+    font-size: 1.2rem;
+  }
+
+  .card .card__textos .textos__card .card__link{
+    font-size: 1.1rem;
+  } 
+  /* arrivals */
+
+  /*  favourite */
+  .container__favourite{
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+
+  .container__favourite .card .img__card__mobile{
+      display: none;
+  }
+
+  .container__favourite .card .img__card__tablet{
+      display: block;
+  }
+  /* /favourite */
+
+  /*  downloads */
+  .downloads .content__downloads .txt__downloads .area__btns__downloads{
+      flex-direction: row;
+      padding: 1rem 0;
+      justify-content: center;
+      gap: 1rem;    
+  }
+  /*  downloads */  
+
+  /*  footer */
+  .footer .footer__content{
+    flex-direction: row;  
+    gap: 1rem;
+  }
+
+  .footer .footer__content .footer__links{
+      flex-direction: row;
+      justify-content: center;      
+      align-items: flex-start;
+      /* gap: .5rem; */
+      padding: .5rem;
+      margin-top: 0;
+  }
+
+   .footer .footer__content .footer__links .footer__links__col{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 1rem;
+    padding: .5rem;
+  }
+
+  .footer .footer__content .footer__links .footer__links__col li{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 100%;
+  }
+
+  .footer .footer__content .footer__links .footer__links__col a{
+     white-space: nowrap;     
+  }
+
+  .footer .footer__content .footer__redes .footer__botoes i{
+    font-size: 1.5rem;
+    padding: .3rem .7rem;
+  }
+
+  .footer .footer__content .footer__redes{
+     justify-content: flex-start;
+  }
+
+  .footer .footer__content .footer__redes{
+      display: flex;
+      justify-content: flex-start;
+  }
+
+  .footer .footer__content .footer__redes .footer__textos{
+    align-items: flex-start;
+  }
+
+  .footer .footer__content .footer__redes .footer__textos h2{
+     margin-bottom: 0;
+  }
+
+  .footer .footer__content .footer__redes .footer__textos p{
+    text-align: left;   
+    margin-bottom: 0; 
+  }
+
+  .footer .footer__content .footer__redes .footer__botoes{
+    justify-content: flex-start;
+    padding: 1rem 0;
+  }
+  /* /footer */
+}
+
+@media (min-width: 920px) {  
+  /* Header */
+  header .btn-burger{
+   display: none;     
+  }
+ 
+  nav { 
+    display: flex; 
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: row; 
+    background: transparent;
+    top: 0; 
+    left: 0; 
+    padding: 1rem 0; 
+    height: 80px;
+    gap: 0;
+  } 
+
+  nav ul { 
+    text-align: center; 
+    padding: 0 1rem; 
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+  } 
+ 
+  nav ul li a { 
+    color: var(--color-neutral-1); 
+    font-weight: 700; 
+    font-size: 1.2rem;
+    text-decoration: none;    
+  } 
+
+  nav ul li a:hover{
+    text-decoration: underline;
+    text-decoration-color: var(--color-primary);
+  }
+
+  nav ul li .link-btn{
+     padding: .7rem 1.5rem;
+     border-radius: .5rem;
+  }
+
+  nav ul li .link-btn:hover{
+    text-decoration: none;
+    background-color: transparent;
+    border: 1px solid var(--color-neutral-1); 
+    color: var(--color-neutral-1);   
+  }
+  /* /Header */
+
+  /* Hero */
+  .hero{
+    flex-direction: row;        
+  }
+
+  .hero .txt__hero{
+    width: 50%; 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .hero .txt__hero .txt__info{
+    text-align: left;
+    font-size: 1.3rem;
+    margin-block: 1.5rem;
+  }
+
+  .hero .txt__hero .title-white, .hero .txt__hero .title-yellow, .hero .txt__hero .title-sem-bg{
+    margin-bottom: -1.8rem;
+  }
+
+  .hero .btn-shopnow button{
+    padding: 1rem 2rem;   
+    font-size: 1.1rem;
+    margin-top: -3rem;
+  }
+
+  .hero .area__img__hero{
+      width: 50%;
+      padding: 1rem;
+      position: relative;
+  }
+
+  .hero .area__img__hero img{
+      position: absolute;
+      max-width: 520px;
+      top: 0;
+      right: 0;
+  }
+  /* /Hero */ 
+
+  /* arrivals */
+  .container__arrivals{
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  }
+
+  .container__arrivals .card .card__textos .textos__card h3{
+     font-size: 1.4rem;
+  }
+  /* arrivals */
+
+  /*  payday */
+  .payday .area__img__payday .img__payday{
+    width: 450px;
+  }
+  /* /payday */
+
+  /*  favourite */
+  .container__favourite{
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  }
+
+   .container__favourite .card .card__textos .textos__card h3{
+     font-size: 1.4rem;
+  } 
+
+  .area__img__title__favourite .img__title__favourite{
+    width: 28rem;
+  }
+
+  .area__img__title__favourite{  
+    justify-content: flex-start;
+  }
+  /* /favourite */
+
+  /*  downloads */
+  .downloads .content__downloads{
+    flex-direction: row;    
+  }
+
+  .downloads .content__downloads .txt__downloads{
+    width: 50%;   
+  }
+
+  .downloads .content__downloads .area__img__downloads{
+    width: 50%;       
+  }
+ 
+  .downloads .content__downloads .area__img__downloads .img__mockup{
+    width: 30rem;
+  }
+
+  .downloads .content__downloads .txt__downloads h2,
+  .downloads .content__downloads .txt__downloads h3{
+      text-align: start;
+  }
+
+  .downloads .content__downloads .txt__downloads .area__btns__downloads{
+      flex-direction: row;
+      padding: 1rem 0;
+      justify-content: flex-start;
+      gap: 1rem;    
+  }
+
+  /* news letter */
+  .newsletter__area__content h2{
+    font-size: 3rem;
+  }
+
+  .newsletter__area__content p{
+     font-size: 1.3rem;
+  }
+  /* news letter */
+  
+   /*  footer */
+  .footer .footer__content .footer__links{     
+      gap: 4rem;
+  }  
+   /* /footer */ 
+} 
+
+@media (min-width: 1024px) { 
+  /*  Clientes */
+  .container__images__clientes{
+    grid-template-columns: repeat(6, 1fr);    
+  }
+
+  .area__img__clientes .img__clientes{
+    width: 130px;
+    height: 50px;
+  }
+  /* /Clientes */
+
+  /* arrivals */
+  .area__img__title__arrivals .img__title__arrivals{
+    width: 25rem;
+  }
+
+  .card .img__card__mobile, .card .img__card__tablet{
+    display: none;
+  }
+
+  .card .img__card__desktop{
+    display: block;
+  }
+ 
+  .card .card__textos .textos__card h3{
+      font-size: 1.4rem;
+  } 
+  /* arrivals */
+
+  /*  payday */
+  .payday{
+    flex-direction: row-reverse;
+  }
+
+  .payday .txt__payday{
+       padding: 4rem 2rem;   
+       align-items: start;
+   }  
+
+   .payday .txt__payday h4,
+   .payday .txt__payday h6{
+       text-align: start;
+   }
+  /* /payday */ 
+
+  /*  downloads */
+  .downloads .content__downloads{
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;    
+  }
+
+  .downloads .content__downloads .area__img__downloads .img__mockup{
+    width: 33rem;
+  }
+  /* /downloads */ 
+}
+
+@media (min-width: 1200px) {
+  /* payday */
+    .payday .txt__payday{
+      width: 50%;
+    }
+
+    .payday .area__img__payday{
+      width: 50%;
+    }
+
+   .payday .area__img__payday .img__payday{
+      width: 500px;
+   }    
+
+   .payday .txt__payday h2, .payday .txt__payday h3{
+       font-size: 5rem;
+    }
+
+   .payday .txt__payday h4,
+   .payday .txt__payday h5,
+   .payday .txt__payday h6{
+       font-size: 1.5rem;
+    }
+
+    .payday .txt__payday{
+       padding: 5.5rem 2rem;       
+    }    
+    /* /payday */
+
+    /*  favourite */
+    .area__img__title__favourite .img__title__favourite{
+      width: 32rem;
+    }
+    /* /favourite */
+}
+
+@media (min-width: 1300px) {       
+  /* hero */ 
+  .hero{
+    padding: 5rem;
+  }
+
+  .hero .area__img__hero img{
+      max-width: 600px;
+      top: -4rem;
+      right: 0;
+  }
+  /* hero */
+
+  /*  downloads */
+  .downloads .content__downloads .txt__downloads h2{
+    font-size: 2.7rem;
+  }
+
+  .downloads .content__downloads .txt__downloads h3{
+    font-size: 1.4rem;
+  }
+
+  .downloads .content__downloads .txt__downloads .area__btns__downloads .img__downloads{
+    width: 10rem;
+  }
+
+  .downloads .content__downloads .area__img__downloads .img__mockup{
+    width: 40rem;
+  }  
+  /* /downloads */ 
+}
+
+@media (min-width: 1500px) {       
+  /* hero */
+  .hero{
+    padding: 8rem 5rem;
+  }
+
+  .hero .area__img__hero img{
+      max-width: 750px;
+      top: -5rem;
+      right: -3rem;
+  }
+
+  .hero .txt__hero .title-white, .hero .txt__hero .title-yellow, .hero .txt__hero .title-sem-bg{
+    font-size: 6rem;   
+  }
+
+  .hero .txt__hero .txt__info{
+    font-size: 1.8rem;  
+    margin-block: 3rem;
+  }
+
+  .hero .btn-shopnow button{
+    padding: 2rem 6rem;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+  }
+  /* hero */
+
+  /* arrivals */
+  .card .card__textos .textos__card h3{
+    font-size: 1.7rem;
+  }
+
+  .card .card__textos .textos__card .card__link{
+     font-size: 1.4rem;
+  }
+  /* arrivals */
+
+  /* payday */     
+   .payday .txt__payday{
+       padding: 4.8rem 2rem;       
+   }
+
+   .payday .area__img__payday .img__payday{
+      width: 550px;
+   }  
+
+   .payday .txt__payday h2, .payday .txt__payday h3{
+       font-size: 5.5rem;
+    }
+
+   .payday .txt__payday h4,
+   .payday .txt__payday h5,
+   .payday .txt__payday h6{
+       font-size: 1.7rem;
+    }
+
+   .payday .txt__payday .btn-shopnow button{
+       padding: 2rem 6rem;
+       font-size: 1.5rem;
+   }
+    /* /payday */
+
+  /*  downloads */
+  .downloads .content__downloads .txt__downloads h2{
+    font-size: 3rem;
+  }
+
+  .downloads .content__downloads .txt__downloads h3{
+    font-size: 1.6rem;
+  }
+
+  .downloads .content__downloads .txt__downloads .area__btns__downloads .img__downloads{
+    width: 12rem;
+  }
+ 
+  .downloads .content__downloads .area__img__downloads .img__mockup{
+    width: 45rem;
+  }
+  /* /downloads */
+
+   /*  newsletter */
+   .newsletter__area__content .newsletter__area__inputbutton input{
+    padding: 1.4rem;
+   }
+  
+   .newsletter__area__content .newsletter__area__inputbutton button{
+     right: 1.9rem; 
+     top: 1.4rem;  
+     padding: .9rem 1.7rem;       
+   }
+   /* /newsletter */
+
+    /*  footer */
+  .footer .footer__content .footer__links{     
+      gap: 5rem;
+  }  
+   /* /footer */  
+}
+
+@media (min-width: 1800px) {  
+  /* hero */
+  .hero{
+    padding: 6rem 5rem;
+  }
+   
+  .hero .area__img__hero img{
+      max-width: 800px;
+      top: 0;
+  }
+
+  .hero .txt__hero .title-white, .hero .txt__hero .title-yellow, .hero .txt__hero .title-sem-bg{
+    font-size: 6rem;   
+  }
+
+  .hero .txt__hero .txt__info{
+      font-size: 1.5rem;
+      margin-block: 2rem;
+  }  
+  /* hero */
+
+  /* clientes */
+  .area__img__clientes .img__clientes{
+    width: 160px;
+    height: 50px;
+  }
+  /* clientes */  
+
+   /* /downloads */
+   .downloads .content__downloads .area__img__downloads .img__mockup{
+    width: 50rem;
+  }
+  /* /downloads */
+
+  /* btnVoltar */ 
+  .area__imgVoltar.showBtnVoltar {
+    opacity: 0.4; /* opacidade baixa */
+    pointer-events: auto;
+  }
+
+  .area__imgVoltar:hover {
+    opacity: 1;
+    transform: translateY(-4px);
+  }
+
+  .area__imgVoltar{
+    transition: color 0.3s ease, opacity 0.3s ease;
+  }
+
+  .area__imgVoltar.opacityBtn{
+    color: var(--color-primary);
+  }
+  /* /btnVoltar */
+}
