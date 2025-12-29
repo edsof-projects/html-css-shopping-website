@@ -46,7 +46,7 @@ Link do repositório       :[https://github.com/edsof-projects/html-css-agencia-
 
 ## 🎨 Inspiração:
 
-Figma - (https://www.figma.com/design/OGu8VvOmu7EjFKh8pKVpWJ/Shopping-Website--Community---Copy-?node-id=2-2&p=f&t=9T5QEhKeq3UI8PCH-0)
+Figma Community
 
 
 ## :memo: Licença :
